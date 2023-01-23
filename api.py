@@ -66,7 +66,7 @@ def predict (req : request_body) :
 # interprétabilité des résultat 
 @app.get("/INTERPRETABILITE")
 
-def Interprétabilité (f1:float,f2:float,f3:float,f4: float,f5:float,f6:float,f7:float):
+def INTERPRETABILITE (f1:float,f2:float,f3:float,f4: float,f5:float,f6:float,f7:float):
     classifier=loaded_model['model']
     valeurs=[[f1,f2,f3,f4,f5,f6,f7]]
     #user=pd.DataFrame([valeurs])
