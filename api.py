@@ -64,7 +64,7 @@ def predict (req : request_body) :
 
 
 # interprétabilité des résultat 
-@app.get("/Interprétabilité")
+@app.get("/INTERPRETABILITE")
 
 def Interprétabilité (f1:float,f2:float,f3:float,f4: float,f5:float,f6:float,f7:float):
     classifier=loaded_model['model']
