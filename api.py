@@ -16,9 +16,7 @@ from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.preprocessing import RobustScaler
 from sklearn.pipeline import Pipeline
 import shap
-from imblearn.pipeline import Pipeline
-from imblearn.over_sampling import SMOTE
-from imblearn.under_sampling import RandomUnderSampler
+
 
 data = pd.read_csv('df_projet')
 loaded_model = load('modele_projet7')
